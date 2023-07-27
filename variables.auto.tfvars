@@ -1,6 +1,6 @@
 # Required
-domain_name = 
-aliases     = []
+domain_name = "cclaude.dev"
+aliases     = ["www.cclaude.dev", "*.cclaude.dev"]
 
 # Example config
 # domain_name     = "mysite.com"

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOMAIN=default.com
+DOMAIN=cclaude.dev
 SUBDOMAINS="www"
 PROTOCOLS="http https"
 

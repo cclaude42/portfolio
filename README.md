@@ -1,29 +1,5 @@
-Auth
-- Create AWS account
-- Set credentials locally
+Website available at [cclaude.dev](https://cclaude.dev)
 
-Backend
-- Create S3 state bucket
-- Create DDB lock table (LockID)
-- Set backend.tfvars
+Forked from [cclaude42/terraform-static-site](https://github.com/cclaude42/terraform-static-site)
 
-Config
-- Create certificate in AWS (GLOBAL !!)
-- Copy CNAME pairs in registrar
-- Set variables.tfvars
-
-Build
-- terraform init -backend-config=backend.tfvars
-- terraform plan
-- terraform apply
-
-Finalize
-- Add Cloudfront URL to registrar
-- Wait ?
-- Test using script
-
-To do :
-- Add error page to CF
-- Add lambda for path fixing
-- Write readme
-- Test to see if it worked ?
+(Well, not "forked", you can't fork your own projects unfortunately. I copied it using [Github Importer](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer))
