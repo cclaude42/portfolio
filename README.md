@@ -23,7 +23,7 @@ Finalize
 - Test using script
 
 To do :
-- Add error page to CF
-- Add lambda for path fixing
-- Write readme
-- Test to see if it worked ?
+- [x] Add error page to CF
+- [x] Add lambda for path resolving
+- [ ] Write readme
+- [ ] Test to see if it works on domain name ?
