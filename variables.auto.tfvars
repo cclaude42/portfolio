@@ -1,6 +1,6 @@
 # Required
 domain_name = 
-aliases     = 
+aliases     = []
 
 # Example config
 # domain_name     = "mysite.com"

@@ -22,6 +22,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     cached_methods  = ["GET", "HEAD"]
 
     viewer_protocol_policy = "redirect-to-https"
+
+    lambda_function_association {
+      event_type   = "origin-request"
+      lambda_arn   = aws_lambda_function.index_resolver.qualified_arn
+      include_body = false
+    }
   }
 
   price_class = "PriceClass_All"
