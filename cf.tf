@@ -30,6 +30,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     }
   }
 
+  custom_error_response {
+    error_code         = 403
+    response_code      = 404
+    response_page_path = "/error.html"
+  }
+
   price_class = "PriceClass_All"
 
   restrictions {
